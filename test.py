@@ -41,7 +41,7 @@ class test_triangle (unittest.TestCase):
     ----------------------------------------------------------
     '''
     
-    def testEquilateral(self):
+    def test_tamgiacdeu(self):
         result = detect_triangle(5.0, 5.0, 5.0)
         self.assertEqual(result, 'tam giac deu')
     '''
@@ -92,7 +92,7 @@ class test_triangle (unittest.TestCase):
     tam giac thuong 
     -------------------------------------------------------------
     '''
-    def testScalene(self):
+    def test_tamgiacthuong(self):
         result = detect_triangle(3, 2.0, 4.0)
         self.assertEqual(result, 'tam giac thuong')
         
